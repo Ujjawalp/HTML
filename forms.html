@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> FORMS </title>
+	</head>
+	<body>
+			<form>
+				<label for="First_name">First name: </label>
+				<input type="text" id="First_name" name="First_name" placeholder="Aman">
+
+				<br><br>
+
+				<label for="Last_name"> Last name: </label>
+				<input type="text" id="Last_name" name="Last_name" placeholder="Prakhar">
+
+				<br><br>
+
+				<label for="Title">Title: </label>
+
+				<label for="Mr.">Mr.</label>
+				<input type="radio" value= "Mr." id="Mr." name="title">
+				<label for="Mrs.">Mrs.</label>
+				<input type="radio" value= "Mrs." id="Mrs." name="title">
+				<label for="Miss.">Miss.</label>
+				<input type="radio" value= "Miss." id="Miss." name="title">
+				<label for="Dr.">Dr.</label>
+				<input type="radio" value= "Dr." id="Dr." name="title">
+
+				<br><br>
+
+				<label for="Payment">Payment: </label>
+				<select>
+					<option value="visa">visa</option>
+					<option value="check">check</option>
+					<option value="mastercard">mastercard</option>
+					<option value="cash">cash</option> 
+				</select>
+
+				<br><br>
+
+				<label for="E-mail">E-mail: </label>
+				<input type="E-mail" id="E-mail" name="E-mail" placeholder="xyz@gmail.com">
+
+				<br><br>
+
+				<label for="Birthday">Birthday: </label>
+				<input type="date" id="birthday" name="birthday" min="2000-01-01" max=2050-01-01>
+
+				<br><br>
+
+				<label for="Quantity">Quantity: </label>
+				<input type="number" id="Quantity" name="Quantity" min="0" max="10" value="2">
+
+				<br><br>
+
+				<label for="Phone_no">Phone no: </label>
+				<input type="tel" id="Phone_no" name="Phone_no">
+
+				<br><br>
+
+				<label for="Password">Password: </label>
+				<input type="password" id="Password" name="Password">max 12 characters
+
+				<br><br>
+
+				<label for="Rate">Rate: </label>
+				1<input type="range" step="11">10
+
+				<br><br>
+
+				<label for="Verify"> Verify: </label>
+				<input type="checkbox" id="Verify" name="Verify">
+
+				<br><br>
+
+				<label for="myfile">Upload a file: </label>
+				<input type="file" id="myfile" name="myfile">   			<!-- we can also add a accept="" tag to limit the type of files to add-->
+
+				<br><br>
+
+				<input type="reset">
+
+				<br><br>
+
+				<input type="submit">
+
+			</form>
+	</body>
+</html>
